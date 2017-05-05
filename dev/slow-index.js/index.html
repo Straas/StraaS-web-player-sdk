@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>http://your.own.domain/</h1>
+    <div id="player" style="width: 1100px; height: 640px">載入SDK中...</div>
+
+    <!--<script src="https://app.straas.net/straas_sdk"></script>-->
+    <!--<script src="https://app-staging.straas.net/straas_sdk"></script>-->
+    <!--<script src="http://localhost:3000/straas_sdk"></script>-->
+
+    <!-- test in sdk, just run `npm run dev` -->
+    <script src="/dist/straas.bundle.js"></script>
+
+    <script>
+      // if index.js is loaded after straas_sdk
+      // expect sdk will use interval to check the init function exists
+      // and initiail player as expectation
+      const slow = 3000
+
+      setTimeout(function() {
+        fetch('./index.js')
+        .then((response) => {
+          return response.text()
+        })
+        .then((script) => {
+          const box = document.createElement('script')
+          box.innerHTML = script
+          document.body.appendChild(box)
+          // player should be works/initialized
+        })
+      }, slow)
+    </script>
+  </body>
+</html>

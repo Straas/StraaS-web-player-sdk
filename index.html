@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Samples index of StraaS Web SDK</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.css"></link>
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">StraaS Web SDK Samples</a>
+      </div>
+    </div>
+  </nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Samples, StraaS Web SDK!</h1>
+        <p>提示：所有範例的基本運作皆需要網路連線。</p>
+        <!--<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>-->
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Basic</h2>
+          <p>從 CDN 載入 StraaS 函式庫，然後準備好一個 div#player，在 <a href="./basic/index.js">index.js</a> 置換你的 ACCOUNT_ID 與 VIDEO_ID，立刻正確影音播放器！</p>
+          <p><a class="btn btn-default" href="./basic" role="button">查看範例 &raquo;</a></p>
+        </div>
+
+        <div class="col-md-4">
+          <h2>Plugin Usage</h2>
+          <p>host 好你的 js 與 css 或直接載入 cdn 的 scripts 或 stylesheets，立即為您的影音播放器加多新的功能！</p>
+          <p><a class="btn btn-default" href="./plugin-usage" role="button">查看範例 &raquo;</a></p>
+        </div>
+
+        <div class="col-md-4">
+          <h2>Create own plugin</h2>
+          <p>建立您自己的 plugin 並透過 SDK 加載進影音播放器，為您的影音播放器客製您所想要的功能。在這個例子中，我們透過 CSS 將影音播放器，變成了半透明！</p>
+          <p><a class="btn btn-default" href="./create-plugin" role="button">查看範例 &raquo;</a></p>
+        </div>
+
+        <div class="col-md-4">
+          <h2>Use videojs options</h2>
+          <p>傳入傳統 videojs 的 options，客製化你的 player。以使進度控制條在 7秒後才消失，而非 2秒為例。</p>
+          <p><a class="btn btn-default" href="./videojs-options" role="button">查看範例 &raquo;</a></p>
+        </div>
+
+        <div class="col-md-4">
+          <h2>Use PlayerVars</h2>
+          <p>透過 playerVars 參數，你可以自訂 player 初始化時期的一些行為或介面。比如說自動播放、循環播放、條件式顯示瀏覽人數等。以限定瀏覽人數為例，你可以傳入 { playerVars: { showViewsCount: 300000 } } 來達到「當瀏覽人數達30萬時，才顯示瀏覽人數」的功能。</p>
+          <p><a class="btn btn-default" href="./show-views-count" role="button">查看範例 &raquo;</a></p>
+        </div>
+      </div>
+
+      <hr>
+
+      <footer>
+        <p>2016 &copy; COPYRIGHT <a href="https://straas.io/">STRAAS.IO</a></p>
+      </footer>
+    </div> <!-- /container -->
+</body>
+
+</html>
