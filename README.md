@@ -3,7 +3,7 @@ StraaS SDK
 
 ## DEMO
 
-[https://straas.github.io/StraaS-web-sdk-sample/](https://straas.github.io/StraaS-web-sdk-sample/)
+[https://straas.github.io/StraaS-web-player-sdk/](https://straas.github.io/StraaS-web-player-sdk/)
 
 ## Getting Started
 
