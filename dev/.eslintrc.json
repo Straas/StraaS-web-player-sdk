@@ -1,0 +1,24 @@
+{
+  "plugins": [
+    "react"
+  ],
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "parserOptions": {
+    "ecmaVersion": 7,
+    "ecmaFeatures": {
+      "jsx": true,
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "globals": {
+    "_": true,
+    "React": true,
+    "ReactDOM": true,
+    "StraaS": true
+  },
+  "rules": {
+    "comma-dangle": [ "error", "only-multiline" ],
+    "no-console": "off",
+    "react/prop-types": "off"
+  }
+}
