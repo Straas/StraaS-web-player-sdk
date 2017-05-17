@@ -29,4 +29,4 @@ window['StraaSOnInit'] = function() {
 }
 ```
 
-for more Argument2 detail please visit [WIKI](https://github.com/StraaS/StraaS-web-document/wiki/SDK-Player)
+for more Argument2 detail please visit [WIKI](https://github.com/StraaS/StraaS-web-player-sdk/wiki)
