@@ -25,6 +25,9 @@ window['StraaSOnInit'] = function StraaSOnInit() {
       canplay: function(event) {
         console.log('initial define event for canplay', event)
       },
+      timeupdate: function (event) {
+        console.log('[recorded video time(ms)]', event.target.currentLiveDateTime)
+      }
     },
   })
 }
