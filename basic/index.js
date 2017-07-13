@@ -22,11 +22,19 @@ window['StraaSOnInit'] = function StraaSOnInit() {
       playlistMenu: Player.PlaylistMenu.YES,
     },
     events: {
+      loadedmetadata: function (event) {
+        console.log('[loadedmetadata]')
+        console.log('player has ' + playerInstance.levels.length + ' quality levels:', playerInstance.levels)
+      },
       canplay: function(event) {
         console.log('initial define event for canplay', event)
       },
       timeupdate: function (event) {
         console.log('[recorded video time(ms)]', event.target.currentLiveDateTime)
+      },
+      levelchange: function (event) {
+        console.log('[levelchange]')
+        console.log('player\'s current level is: ', playerInstance.level)
       }
     },
   })
