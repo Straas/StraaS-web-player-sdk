@@ -75,7 +75,7 @@ function getConfig() {
       state.distScriptSrc = `../../../dist/${state.version}/player-sdk.js`
       break
     case 'staging':
-      state.distScriptSrc = 'https://app.straas.net/sdk/1.8.0/player-sdk.js'
+      state.distScriptSrc = 'https://app.straas.net/sdk/1.9.0/player-sdk.js'
       break
     default:
       logMessage(`
@@ -84,7 +84,7 @@ function getConfig() {
         若沒有選取環境，默認為 production
       `)
     case 'production':
-      state.distScriptSrc = 'https://app.straas.net/sdk/1.8.0/player-sdk.js'
+      state.distScriptSrc = 'https://app.straas.net/sdk/1.9.0/player-sdk.js'
       break
   }
 
