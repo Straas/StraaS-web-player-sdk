@@ -21,7 +21,7 @@ async function initPlayer() {
       type: Player.Type.VIDEO,
       appToken: data.token,
       videoJsOptions: {
-        inactivityTimeout: 10000
+        inactivityTimeout: 7000
       }
     })
   }
