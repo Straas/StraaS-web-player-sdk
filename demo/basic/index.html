@@ -10,7 +10,7 @@
 </head>
 <script>
   async function initPlayer() {
-    const response = await window.fetch('/version2demo/fetch-app-token.php')
+    const response = await window.fetch('https://demo.straas.net/api/apptoken')
 
     if (response.ok) {
       const data = await response.json()
@@ -19,8 +19,8 @@
         const Player = StraaS.Player
         const playerInstance = new Player('#player', {
           type: Player.Type.VIDEO,
-          id: 'Qv8NKKBa',
-          accountId: data.account_id,
+          id: 'iqFDrEw7',
+          accountId: 'demo.straas.io-test',
           appToken: data.token
         })
       }

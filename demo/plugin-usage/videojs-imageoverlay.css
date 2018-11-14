@@ -1,0 +1,11 @@
+#vjs-image-overlay-holder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  img {
+    height: 100%;
+    margin: auto;
+    cursor: pointer;
+  }
+}

@@ -1,6 +1,10 @@
 StraaS SDK
 ===
 
+## DEMO
+
+[https://straas.github.io/StraaS-web-player-sdk/demo/](https://straas.github.io/StraaS-web-player-sdk/demo/)
+
 ## Getting Started
 
 Prepare HTML, for instance `index.html`
