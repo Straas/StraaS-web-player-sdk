@@ -23,10 +23,8 @@ async function initPlayer() {
       deps: [
         // for example we use the videojs plugin:
         // https://github.com/funnyordie/videojs-imageOverlay
-        'http://localhost:8080/public_resources/demo/plugin-usage/videojs-imageoverlay.js',
-        'http://localhost:8080/public_resources/demo/plugin-usage/videojs-imageoverlay.css',
-        // 'https://straas.github.io/StraaS-web-player-sdk/demo/plugin-usage/videojs-overlay.js',
-        // 'https://straas.github.io/StraaS-web-player-sdk/demo/plugin-usage/videojs-overlay.css',
+        'https://straas.github.io/StraaS-web-player-sdk/demo/plugin-usage/videojs-imageoverlay.js',
+        'https://straas.github.io/StraaS-web-player-sdk/demo/plugin-usage/videojs-imageoverlay.css',
       ],
       appToken: data.token,
       plugins: [
