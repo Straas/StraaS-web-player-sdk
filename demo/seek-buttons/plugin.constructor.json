@@ -1,0 +1,15 @@
+{
+    "deps": [
+        "https://cdn.jsdelivr.net/npm/videojs-seek-buttons@1.3.0/dist/videojs-seek-buttons.js",
+        "https://cdn.jsdelivr.net/npm/videojs-seek-buttons@1.3.0/dist/videojs-seek-buttons.css",
+        "http://kiwiliu-rc.straas.io:8764/dev-tools/videojs-seek-button-example/straas-seek-buttons.css"
+    ],
+    "enableJsDeps": true,
+    "plugins": [{
+        "name": "seekButtons",
+        "options": {
+            "forward": 10,
+            "back": 10
+        }
+    }]
+}

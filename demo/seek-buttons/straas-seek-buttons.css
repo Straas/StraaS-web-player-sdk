@@ -1,0 +1,19 @@
+.video-js.vjs-straas-skin .vjs-control-bar .vjs-seek-button.skip-back {
+  order: 2
+}
+
+.video-js.vjs-straas-skin .vjs-control-bar .vjs-seek-button.skip-forward {
+  order: 3
+}
+
+.video-js.vjs-straas-skin .vjs-control-bar .vjs-control.vjs-seek-button.skip-back .vjs-icon-placeholder:before {
+  content: "\E071";
+}
+
+.video-js.vjs-straas-skin .vjs-control-bar .vjs-control.vjs-seek-button.skip-forward .vjs-icon-placeholder:before {
+  content: "\E075";
+}
+
+.video-js.vjs-straas-skin .vjs-control-bar .vjs-duration {
+  width: calc(100% - 256px);
+}
