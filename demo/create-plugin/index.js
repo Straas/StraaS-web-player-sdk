@@ -2,7 +2,7 @@ var Player
 var playerInstance
 
 var ACCOUNT_ID = 'demo.straas.io-test'
-var VIDEO_ID = 'iqFDrEw7'
+var VIDEO_ID = 'PKLQhfZh'
 
 async function initPlayer() {
   const response = await window.fetch('https://demo.straas.net/api/apptoken')

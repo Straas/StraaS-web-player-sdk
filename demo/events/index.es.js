@@ -9,7 +9,7 @@ window.StraaSOnInit = () => {
     ...{
       development: { id: 'j8v6BHRD', accountId: 'cw.com.tw' },
       staging: { id: 'cEUxoDrz', accountId: 'cw.com.tw' },
-      production: { id: 'iqFDrEw7', accountId: 'demo.straas.io-test' }
+      production: { id: 'PKLQhfZh', accountId: 'demo.straas.io-test' }
     }[window.config.env],
     type: Player.Type.VIDEO,
     playerVars: {
