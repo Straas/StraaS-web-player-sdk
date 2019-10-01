@@ -12,7 +12,7 @@ Prepare HTML, for instance `index.html`
 ```html
 <div id="player"></div>
 
-<script src="https://app.straas.net/sdk/3.3.2/player-sdk.js"></script>
+<script src="https://app.straas.net/sdk/3.3.3/player-sdk.js"></script>
 <script src="./index.js"></script>
 ```
 
