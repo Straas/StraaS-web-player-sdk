@@ -7,7 +7,28 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <script src="https://app.straas.net/sdk/3.4.1/player-sdk.js"></script>
-  <script src="./index.js"></script>
+  <script>
+    async function initPlayer() {
+      const response = await window.fetch('https://demo.straas.net/api/apptoken')
+
+      if (response.ok) {
+        const data = await response.json()
+        window['StraaSOnInit'] = function () {
+          const StraaS = window.StraaS
+          const Player = StraaS.Player
+          const playerInstance = new Player('#player', {
+            type: Player.Type.VIDEO,
+            id: 'PKLQhfZh',
+            accountId: 'demo.straas.io-test',
+            appToken: data.token
+          })
+        }
+      }
+
+    }
+
+    initPlayer()
+  </script>
 </head>
 
 <body>
